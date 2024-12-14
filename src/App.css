@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.MainContainer {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.NavContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.TextTitle{
+  font-size: 2rem;
+  font-weight: 600;
+  font-family:Arial;
+}
+
+.Button {
+  font-size: larger;
+  cursor: pointer;
+  margin-right: 2rem;
+  padding: 7px 20px;
+}
+
+.TextEditorContainer {
+  border: 2px solid lightseagreen;
+  padding: 15px;
+  margin: 3rem;
+  flex: 2;
+}
+
+.BoldBlock {
+  font-weight: bold;
+}
+
+.RedBlock {
+  color: red
+}
+
+.UnderlineBlock {
+  text-decoration: underline;
+}
